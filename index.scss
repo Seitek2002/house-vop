@@ -1,9 +1,7 @@
-body {
-    margin: 0;
-    background: #242B33;
-}
+@import './components/base';
+@import './components/classes';
 
-.container {
-    max-width: 1110px;
-    margin: 0 auto;
-}
+@import './components/header';
+@import './components/hero';
+
+@import './components/footer';
