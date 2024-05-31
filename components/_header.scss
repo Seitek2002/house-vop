@@ -1,5 +1,8 @@
 .header {
     font-family: "Raleway";
+    position: absolute;
+    width: 100%;
+    top: 30px;
 
     &__content {
         display: flex;
