@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap';
 body {
   margin: 0;
   background: #242B33;
@@ -24,4 +25,20 @@ button {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+.header {
+  font-family: "Raleway";
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__content nav {
+  display: flex;
+  gap: 40px;
+}
+.header__content nav a {
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
