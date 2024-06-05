@@ -8,6 +8,7 @@
         justify-content: center;
         gap: 70px;
         position: relative;
+        flex-wrap: wrap;
     }
 
     &__item {
@@ -16,6 +17,26 @@
 
         p {
             margin-top: 53px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .features {
+        .rome-number {
+            right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .features {
+        .rome-number {
+            bottom: 0;
+        }
+
+        &__item {
+            width: 40%;
         }
     }
 }

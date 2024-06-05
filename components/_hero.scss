@@ -10,7 +10,7 @@
         color: #D4C17F;
         font-size: 48px;
         font-family: "Playfair Display";
-        width: 556px;
+        max-width: 556px;
     }
 
     &__content {
@@ -34,6 +34,27 @@
             display: flex;
             align-items: center;
             gap: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero {
+        align-items: flex-start;
+        padding-top: 100px;
+
+        &__bottom {
+            margin-top: 80px;
+            gap: 40px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        h1 {
+            font-size: 36px;
         }
     }
 }

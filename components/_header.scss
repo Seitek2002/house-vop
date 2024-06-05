@@ -3,6 +3,7 @@
     position: absolute;
     width: 100%;
     top: 30px;
+    z-index: 10;
 
     &__content {
         display: flex;
@@ -16,6 +17,27 @@
             a {
                 color: #fff;
             }
+        }
+    }
+
+    &__menu {
+        display: none;
+
+        img {
+            max-width: 50px;
+            z-index: 10;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        nav {
+            display: none;
+        }
+
+        &__menu {
+            display: block;
         }
     }
 }
