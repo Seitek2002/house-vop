@@ -158,4 +158,44 @@ button {
   .features__item {
     width: 40%;
   }
+}
+.apartment h2 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  color: #d4c17f;
+  margin-bottom: 100px;
+}
+.apartment p {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 24px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.apartment__item {
+  position: relative;
+  width: 45%;
+}
+.apartment__item img {
+  max-width: 100%;
+}
+.apartment__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .apartment__item {
+    width: 100%;
+  }
+  .apartment p {
+    bottom: 20px;
+  }
+  .apartment__block {
+    gap: 35px;
+  }
 }/*# sourceMappingURL=index.css.map */
