@@ -289,4 +289,19 @@ button {
   .apartment__block {
     gap: 35px;
   }
+}
+.footer {
+  background: #2D343C;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer__content li {
+  font-family: "Railway";
+  color: #ffffff;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=index.css.map */

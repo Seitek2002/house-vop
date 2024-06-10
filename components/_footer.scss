@@ -1,0 +1,16 @@
+.footer {
+    background: #2D343C;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    li {
+      font-family: "Railway";
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+  }
+}
