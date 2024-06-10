@@ -159,6 +159,27 @@ button {
     width: 40%;
   }
 }
+.video__content {
+  display: flex;
+  justify-content: center;
+}
+
+.video__src {
+  width: 60%;
+  height: 650px;
+}
+@media screen and (max-width: 768px) {
+  .video__src {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .video__src {
+    height: 300px;
+    width: 300px;
+  }
+}
+
 .apartment h2 {
   font-family: "Playfair Display";
   font-size: 36px;
