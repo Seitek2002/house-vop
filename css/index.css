@@ -290,6 +290,29 @@ button {
     gap: 35px;
   }
 }
+.map {
+  margin-top: 180px;
+}
+.map h2 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  margin-bottom: 100px;
+  color: #D4C17F;
+}
+.map iframe {
+  width: 100%;
+}
+.map__content {
+  position: relative;
+}
+.map__content .rome-number {
+  left: -125px;
+  top: 200px;
+  right: auto;
+  bottom: auto;
+  line-height: 0;
+}
+
 .footer {
   background: #2d343c;
   padding-top: 60px;
