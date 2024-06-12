@@ -1,16 +1,26 @@
 .footer {
-    background: #2D343C;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background: #2d343c;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &__content {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     li {
-      font-family: "Railway";
+      font-family: "Raleway";
       color: #ffffff;
       margin-bottom: 15px;
+      display: flex;
+      gap: 25px;
+    }
+    span {
+      color: #d4c17f;
+    }
+
+    @media screen and (max-width: 425px) {
+      flex-direction: column;
+      gap: 30px;
     }
   }
 }

@@ -291,7 +291,7 @@ button {
   }
 }
 .footer {
-  background: #2D343C;
+  background: #2d343c;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -301,7 +301,18 @@ button {
   justify-content: space-between;
 }
 .footer__content li {
-  font-family: "Railway";
+  font-family: "Raleway";
   color: #ffffff;
   margin-bottom: 15px;
+  display: flex;
+  gap: 25px;
+}
+.footer__content span {
+  color: #d4c17f;
+}
+@media screen and (max-width: 425px) {
+  .footer__content {
+    flex-direction: column;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=index.css.map */
