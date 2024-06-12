@@ -1,0 +1,66 @@
+.question {
+    @media (max-width: 770px) {
+        display: flex;
+        justify-content: center;
+    }
+   
+    margin: 180px 0;
+    h2 {
+        font-family:"Playfair Display";
+        color:#D4C17F;
+        margin-bottom: 62px;
+    }
+    @media (max-width: 1064px) {
+        display: flex;
+        justify-content: center;
+    }
+    span {
+        font-family: "Raleway";
+        color:#E7E7E7;
+        font-size: 13px;
+        display: block;
+        width: 255px;
+        text-align: center;
+    }
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        font-family: "Raleway";
+        @media (max-width: 770px) {
+          flex-direction: column;
+        }
+        input {
+          background: rgba($color: #fff, $alpha: 0.2);
+          font-size: 14px;
+          border: none;
+          text-align: center;
+          padding: 12px 0px;
+          padding-right: 0;
+          width: 255px;
+          box-sizing: border-box;
+        }
+        input::placeholder {
+          color: #bebebe;
+        }
+        span {
+          font-size: 13px;
+          color: #e7e7e7;
+          text-align: center;
+          width: 255px;
+        }
+        button {
+          background: #d4c17f;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          width: 255px;
+          padding: 12px 54px;
+        }
+        @media screen and (max-width: 1064px) {
+            flex-direction: column;
+            align-items: center;
+       }
+      }
+
+}
